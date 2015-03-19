@@ -75,6 +75,7 @@ type RestartPolicy struct {
 
 type PortBinding struct {
 	HostIp   string
+	HostName string
 	HostPort string
 }
 
