@@ -117,6 +117,7 @@ type ContainerChanges struct {
 }
 
 type Port struct {
+	HostName    string
 	IP          string
 	PrivatePort int
 	PublicPort  int
